@@ -1,3 +1,6 @@
+# AutoHotInterception extracted from the archived upstream release
+/vendor/
+
 # AutoHotkey / local development
 *.log
 *.tmp
