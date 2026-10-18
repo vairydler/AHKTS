@@ -1,0 +1,23 @@
+# AutoHotkey / local development
+*.log
+*.tmp
+*.bak
+*.old
+*.ahk.bak
+
+# Local settings and device-specific configuration
+config.local.ini
+config.local.json
+local.settings.ini
+local.settings.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test output
+test-results/
+artifacts/

@@ -1,0 +1,48 @@
+name: 機能・仕様の提案
+description: 新機能、仕様変更、設計検討を記録する
+title: "[SPEC] "
+labels:
+  - "type:spec"
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景・目的
+      description: なぜこの変更が必要か
+    validations:
+      required: true
+  - type: textarea
+    id: related_ids
+    attributes:
+      label: 関連ID
+      description: 関連する REQ / SPEC / DES / MOD / TEST / ADR ID
+      placeholder: "REQ-..., SPEC-..."
+    validations:
+      required: false
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案内容
+      description: 期待する動作や変更案
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 受け入れ条件
+      description: 完了と判断できる具体的な条件
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: テスト・検証方法
+      description: 実機確認、手動テスト、自動テストなど
+    validations:
+      required: true
+  - type: textarea
+    id: open_questions
+    attributes:
+      label: 未確定事項・依存関係
+    validations:
+      required: false
