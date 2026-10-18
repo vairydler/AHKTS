@@ -26,6 +26,7 @@ AutoHotkey v2（AHK）と AutoHotInterception（AHI）を利用し、複数のHI
 - [工程計画](docs/plan.md)
 - [トレーサビリティ](docs/traceability.md)
 - [テスト仕様](docs/test_spec.md)
+- [依存関係の管理](docs/dependencies.md)
 - [設計判断記録（ADR）](docs/decisions/ADR-0001-input-hook-processing.md)
 - [変更履歴](CHANGELOG.md)
 
@@ -35,7 +36,9 @@ AutoHotkey v2（AHK）と AutoHotInterception（AHI）を利用し、複数のHI
 - AutoHotkey v2
 - AutoHotInterception（AHI）
 
-バージョン、導入方法、ライセンス、互換性の確認結果は、採用バージョンを検証した後に追記します。現段階では、対応環境や動作保証を確定していません。
+AHIの元のリリースZIPは `third_party/archives/` でGit管理し、展開物は `vendor/` に生成します。`vendor/` はGit追跡対象外です。取得元、バージョン、ハッシュ、ライセンス確認状況、展開手順は [依存関係の管理](docs/dependencies.md) を参照してください。
+
+依存物のアーカイブは、ライセンスと再配布条件を確認してから追加してください。現段階では、AHIの採用バージョン、対応環境、動作保証を確定していません。
 
 ## 開発状況
 
